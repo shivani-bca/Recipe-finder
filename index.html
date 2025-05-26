@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Finder</h1>
+    <search class="search-container">
+      <label for="ingredient">Find recipes by ingredient:</label>
+      <input type="search" id="ingredient" placeholder="Enter an ingredient (e.g., chicken, potato)">
+      <button id="search-btn">Search</button>
+    </search>
+    
+    <div class="loader" id="loader"></div>
+    
+    <div class="results" id="results"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
